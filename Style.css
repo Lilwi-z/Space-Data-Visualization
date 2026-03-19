@@ -1,0 +1,60 @@
+body{
+margin:0;
+font-family:Arial;
+background:#070b1a;
+color:white;
+}
+
+header{
+text-align:center;
+padding:20px;
+background:#0f1633;
+}
+
+.dashboard{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#11183a;
+padding:15px;
+border-radius:10px;
+}
+header img{
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#globe{
+width:100%;
+height:300px;
+}
+
+#map{
+height:300px;
+width:100%;
+}
+
+canvas{
+background:white;
+border-radius:6px;
+}
+
+/* Mobile */
+@media (max-width:600px){
+
+header h1{
+font-size:20px;
+}
+
+
+}

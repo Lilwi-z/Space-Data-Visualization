@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Space Monitoring Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+<img src="nasrda.png"><h1> Space Monitoring Center - NASRDA</h1>
+</header>
+
+<main class="dashboard">
+
+<section class="card">
+<h2>🌍 Rotating Earth</h2>
+<div id="globe"></div>
+</section>
+
+<section class="card">
+<h2>🛰 Live Satellite Map</h2>
+<div id="map"></div>
+</section>
+
+<section class="card">
+<h2>🔥 Wildfire Detection</h2>
+<ul id="fires"></ul>
+</section>
+
+<section class="card">
+<h2>📊 Space Data</h2>
+<canvas id="spaceChart"></canvas>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
